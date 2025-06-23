@@ -1,0 +1,83 @@
+{
+  "autoHandler": {
+    "autoViewStatus": true,
+    "autoLikeStatus": true,
+    "statusLikeEmoji": "🩷️",
+    "statusEmojis": [
+      "❤️",
+      "👍",
+      "🔥",
+      "😍",
+      "💯",
+      "⭐",
+      "🎉",
+      "👏"
+    ],
+    "randomEmoji": false,
+    "autoReadMessages": false,
+    "autoReadPrivateOnly": false,
+    "autoReadGroupOnly": true,
+    "autoReadNewsletter": true,
+    "presenceSimulator": {
+      "enabled": false,
+      "mode": "online",
+      "interval": 3000,
+      "randomize": true,
+      "randomInterval": {
+        "min": 1500,
+        "max": 6000
+      }
+    },
+    "delays": {
+      "statusLike": 200,
+      "messageRead": 500,
+      "presenceUpdate": 1000
+    },
+    "filters": {
+      "excludeContacts": [],
+      "includeContacts": [],
+      "excludeGroups": [],
+      "includeGroups": [],
+      "excludeKeywords": [],
+      "onlyKeywords": []
+    },
+    "logging": true,
+    "detailedLogs": false
+  },
+  "bot": {
+    "name": "CASPER-X",
+    "version": "1.0.0",
+    "prefix": ".",
+    "timezone": "Africa/Nairobi",
+    "language": "en",
+    "autoRestart": true,
+    "debugMode": false
+  },
+  "security": {
+    "owners": [],
+    "admins": [],
+    "blacklist": [],
+    "antiSpam": {
+      "enabled": true,
+      "maxMessages": 5,
+      "timeWindow": 60000
+    }
+  },
+  "database": {
+    "type": "json",
+    "autoBackup": true,
+    "backupInterval": 86400000,
+    "maxBackups": 7
+  },
+  "performance": {
+    "maxConcurrentOperations": 10,
+    "rateLimiting": {
+      "enabled": true,
+      "requestsPerMinute": 30
+    },
+    "caching": {
+      "enabled": true,
+      "ttl": 300000
+    }
+  }
+}
